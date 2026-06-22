@@ -1,0 +1,47 @@
+# ============================================================
+# Anthony Travels - Git Ignore
+# ============================================================
+
+# Environment variable files — NEVER commit credentials
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+Lib/
+
+# Django
+db.sqlite3
+*.sqlite3
+staticfiles/
+media/
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
